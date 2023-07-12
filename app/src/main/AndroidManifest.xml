@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MetaMind"
+        tools:targetApi="31">
+        <activity
+            android:name=".DBHelper"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".SignIn"
+            android:exported="true">
+
+        </activity>
+
+        <activity
+            android:name=".card50"
+            android:exported="false" />
+        <activity
+            android:name=".card49"
+            android:exported="false" />
+        <activity
+            android:name=".card48"
+            android:exported="false" />
+        <activity
+            android:name=".card47"
+            android:exported="false" />
+        <activity
+            android:name=".card45"
+            android:exported="false" />
+        <activity
+            android:name=".card46"
+            android:exported="false" />
+        <activity
+            android:name=".card44"
+            android:exported="false" />
+        <activity
+            android:name=".card43"
+            android:exported="false" />
+        <activity
+            android:name=".card42"
+            android:exported="false" />
+        <activity
+            android:name=".card41"
+            android:exported="false" />
+        <activity
+            android:name=".card40"
+            android:exported="false" />
+        <activity
+            android:name=".card39"
+            android:exported="false" />
+        <activity
+            android:name=".card38"
+            android:exported="false" />
+        <activity
+            android:name=".card17"
+            android:exported="false" />
+        <activity
+            android:name=".card16"
+            android:exported="false" />
+        <activity
+            android:name=".card15"
+            android:exported="false" />
+        <activity
+            android:name=".card14"
+            android:exported="false" />
+        <activity
+            android:name=".Research"
+            android:exported="false" />
+        <activity
+            android:name=".Music"
+            android:exported="false" />
+        <activity
+            android:name=".TextToSpeech"
+            android:exported="false" />
+        <activity
+            android:name=".DeveloperTools"
+            android:exported="false" />
+        <activity
+            android:name=".CodeAssistant"
+            android:exported="false" />
+        <activity
+            android:name=".LogoGenerator"
+            android:exported="false" />
+        <activity
+            android:name=".CopyWriting"
+            android:exported="false" />
+        <activity
+            android:name=".Ecommerce"
+            android:exported="false" />
+        <activity
+            android:name=".UiUx"
+            android:exported="false" />
+        <activity
+            android:name=".ChatBot"
+            android:exported="false" />
+        <activity
+            android:name=".card13"
+            android:exported="false" />
+        <activity
+            android:name=".card12"
+            android:exported="false" />
+        <activity
+            android:name=".card11"
+            android:exported="false" />
+        <activity
+            android:name=".card10"
+            android:exported="false" />
+        <activity
+            android:name=".card9"
+            android:exported="false" />
+        <activity
+            android:name=".card8"
+            android:exported="false" />
+        <activity
+            android:name=".card7"
+            android:exported="false" />
+        <activity
+            android:name=".card6"
+            android:exported="false" />
+        <activity
+            android:name=".card5"
+            android:exported="false" />
+        <activity
+            android:name=".card4"
+            android:exported="false" />
+        <activity
+            android:name=".card3"
+            android:exported="false" />
+        <activity
+            android:name=".card2"
+            android:exported="false" />
+        <activity
+            android:name=".card1"
+            android:exported="false" />
+        <activity
+            android:name=".category"
+            android:exported="false" />
+        <activity
+            android:name=".CardViewItem"
+            android:exported="false" />
+        <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>
