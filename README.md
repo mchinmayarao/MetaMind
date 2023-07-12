@@ -19,9 +19,10 @@ Users can click on specific tools to view screenshots and descriptions of the to
 To run the MetaMind application on your device, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/mchinmayarao/MetaMind`
-2. Install dependencies: `npm install` or `yarn install`
-3. Build the project: `npm run build` or `yarn build`
-4. Run the application: `npm start` or `yarn start`
+2. Open the folder through Android Studio
+3. Build the gradle file
+4. Run the application in the emulator it self or
+5. Build the the apk and install in your device
 
 Make sure you have the latest version of Node.js and the required dependencies installed on your system.
 
