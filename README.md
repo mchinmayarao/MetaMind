@@ -24,7 +24,6 @@ To run the MetaMind application on your device, follow these steps:
 4. Run the application in the emulator it self or
 5. Build the the apk and install in your device
 
-Make sure you have the latest version of Node.js and the required dependencies installed on your system.
 
 ## Usage
 
